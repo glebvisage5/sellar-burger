@@ -8,5 +8,3 @@ cypress
 cypress.config.ts
 jest.config.ts
 app-header
-burger-constructor
-burger-constructor-element
