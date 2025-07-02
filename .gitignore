@@ -7,7 +7,6 @@ coverage
 cypress
 cypress.config.ts
 jest.config.ts
-images
 app-header
 burger-constructor
 burger-constructor-element
