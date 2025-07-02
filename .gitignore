@@ -4,7 +4,6 @@ node_modules
 dist
 .storybook
 coverage
-public
 cypress
 cypress.config.ts
 jest.config.ts
