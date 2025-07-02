@@ -10,5 +10,3 @@ jest.config.ts
 app-header
 burger-constructor
 burger-constructor-element
-burger-ingredient
-burger-ingredients
