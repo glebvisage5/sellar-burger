@@ -3,19 +3,10 @@ import orderSlice, {
   initialState
 } from './orderSlice';
 import { expect, test, describe } from '@jest/globals';
+import { mockOrder } from '../__tests__/constants';
 
 describe('тестирование редьюсера orderSlice', () => {
   describe('тестирование асинхронного экшена getOrderByNumber', () => {
-    const mockOrder = {
-      _id: '1',
-      ingredients: ['ingredient1', 'ingredient2'],
-      status: 'done',
-      name: 'Test Order',
-      createdAt: '2024-01-01',
-      updatedAt: '2024-01-01',
-      number: 1
-    };
-
     const actions = {
       pending: {
         type: getOrderByNumber.pending.type
