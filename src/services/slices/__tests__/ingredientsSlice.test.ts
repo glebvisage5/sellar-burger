@@ -1,21 +1,7 @@
 import { ingredientsReducer, fetchIngredients, fetchIngredientsSuccess, fetchIngredientsFailed, incrementCount, decrementCount, clearCount } from '../ingredientsSlice';
 import { TIngredient } from '../../../types/types';
-
-const mockIngredient: TIngredient = {
-  _id: '1',
-  name: 'Test Ingredient',
-  type: 'main',
-  proteins: 10,
-  fat: 5,
-  carbohydrates: 15,
-  calories: 100,
-  price: 200,
-  image: 'test.jpg',
-  image_mobile: 'test-mobile.jpg',
-  image_large: 'test-large.jpg',
-  __v: 0,
-  count: 0
-};
+import { mockIngredient } from './constants';
+import { initialState } from '../ingredientsSlice';
 
 describe('ingredients slice', () => {
   const initialState = {

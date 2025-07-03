@@ -3,30 +3,10 @@ import feedSlice, {
   initialState
 } from './feedSlice';
 import { expect, test, describe } from '@jest/globals';
+import { mockOrders } from '../__tests__/constants';
 
 describe('тестирование редьюсера feedSlice', () => {
   describe('тестирование асинхронного экшена getFeeds', () => {
-    const mockOrders = [
-      {
-        _id: '1',
-        ingredients: ['ingredient1', 'ingredient2'],
-        status: 'done',
-        name: 'Test Order 1',
-        createdAt: '2024-01-01',
-        updatedAt: '2024-01-01',
-        number: 1
-      },
-      {
-        _id: '2',
-        ingredients: ['ingredient3', 'ingredient4'],
-        status: 'pending',
-        name: 'Test Order 2',
-        createdAt: '2024-01-02',
-        updatedAt: '2024-01-02',
-        number: 2
-      }
-    ];
-
     const actions = {
       pending: {
         type: getFeeds.pending.type
