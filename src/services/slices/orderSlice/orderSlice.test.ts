@@ -3,7 +3,7 @@ import orderSlice, {
   initialState
 } from './orderSlice';
 import { expect, test, describe } from '@jest/globals';
-import { mockOrder } from '../__tests__/constants';
+import { mockOrder } from '../constants';
 
 describe('тестирование редьюсера orderSlice', () => {
   describe('тестирование асинхронного экшена getOrderByNumber', () => {

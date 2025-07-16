@@ -1,5 +1,5 @@
 import Cypress from 'cypress';
-import { BASE_URL, ID_BUN, ID_FILLING } from './constants.cy';
+import { BASE_URL, ID_BUN, ID_FILLING } from './constants';
 
 describe('Оформление заказа', () => {
   const BASE_URL = 'https://norma.nomoreparties.space/api';

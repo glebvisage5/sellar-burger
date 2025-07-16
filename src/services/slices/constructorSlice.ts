@@ -7,7 +7,7 @@ interface IConstructorState {
   total: number;
 }
 
-const initialState: IConstructorState = {
+export const initialState: IConstructorState = {
   bun: null,
   ingredients: [],
   total: 0

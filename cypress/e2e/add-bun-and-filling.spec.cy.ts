@@ -1,5 +1,5 @@
 import Cypress from 'cypress';
-import { BASE_URL, ID_BUN, ID_ANOTHER_BUN, ID_FILLING } from './constants.cy';
+import { BASE_URL, ID_BUN, ID_ANOTHER_BUN, ID_FILLING } from './constants';
 
 describe('Добавление булок и начинок', () => {
   const ID_BUN = `[data-cy='643d69a5c3f7b9001cfa093c']`;

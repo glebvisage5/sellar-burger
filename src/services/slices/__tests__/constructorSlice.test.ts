@@ -1,6 +1,6 @@
 import { constructorReducer, addBun, addIngredient, removeIngredient, moveIngredient, clearConstructor } from '../constructorSlice';
 import { TConstructorIngredient } from '../../../types/types';
-import { mockBun, mockConstructorIngredient } from './constants';
+import { mockBun, mockConstructorIngredient } from '../constants';
 import { initialState } from '../constructorSlice';
 
 describe('constructor slice', () => {

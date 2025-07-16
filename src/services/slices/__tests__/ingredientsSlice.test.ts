@@ -1,15 +1,9 @@
 import { ingredientsReducer, fetchIngredients, fetchIngredientsSuccess, fetchIngredientsFailed, incrementCount, decrementCount, clearCount } from '../ingredientsSlice';
 import { TIngredient } from '../../../types/types';
-import { mockIngredient } from './constants';
+import { mockIngredient } from '../constants';
 import { initialState } from '../ingredientsSlice';
 
 describe('ingredients slice', () => {
-  const initialState = {
-    data: [],
-    loading: false,
-    error: null
-  };
-
   it('should handle fetchIngredients', () => {
     const nextState = ingredientsReducer(initialState, fetchIngredients());
     expect(nextState.loading).toBe(true);
