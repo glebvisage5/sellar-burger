@@ -10,7 +10,7 @@ import userSlice, {
   resetError
 } from './userSlice';
 import { expect, test, describe } from '@jest/globals';
-import { mockUser, updatedMockUser } from '../__tests__/constants';
+import { mockUser, updatedMockUser } from '../constants';
 
 describe('тестирование редьюсера userSlice', () => {
   describe('тестирование синхронных экшенов', () => {

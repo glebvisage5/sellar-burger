@@ -3,7 +3,7 @@ import feedSlice, {
   initialState
 } from './feedSlice';
 import { expect, test, describe } from '@jest/globals';
-import { mockOrders } from '../__tests__/constants';
+import { mockOrders } from '../constants';
 
 describe('тестирование редьюсера feedSlice', () => {
   describe('тестирование асинхронного экшена getFeeds', () => {
